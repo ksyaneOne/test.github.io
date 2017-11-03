@@ -1,0 +1,155 @@
+.my-header 
+	.container
+		position: relative
+		height: 350px
+		max-width: 940px
+		max-height: 350px
+		background:
+			image: url(../img/header-bg.jpg)
+			size: cover
+			position: center top
+		&:after
+			content: url(../img/logo.png)
+			position: absolute
+			left: 50%
+			top: 100%
+			transform: translate(-50%, -50%)
+			max-height: 211px
+			max-width: 211px
+.my-nav
+	font-family: $bold
+	font-size: 24px
+	margin: 15px 0 15px 0
+	.container
+		max-width: 940px
+		padding-bottom: 15px
+		border-bottom: 1px solid #b7b7b7
+		i
+			color: #e1e1e1
+			transition: all .4s
+			&:hover
+				color: $grey
+		.col-xs-2
+			margin: 0
+			padding: 0
+		
+	ul li
+		display: inline-block
+		margin: 0 25px
+		a
+			color: $grey
+			display: block
+			transition: all .4s
+			&:hover
+				color: $accent
+		.active
+			color: $accent
+			border-bottom: 5px solid rgba(0,0,0, .3)
+.heading
+	color: $grey
+	font-size: 18px
+	font-family: $default-font
+	margin: 100px 0 0 0
+	.col-xs-4
+		text-align: center
+	span
+		display: block
+		width: 32px
+		height: 1px
+		margin: 0 auto 4px auto
+		background-color: #b7b7b7
+.news-item
+	font-size: 14px
+	font-family: $default-font
+	color: $grey
+	margin-top: 60px
+	.container
+		max-width: 818px
+		padding-left: 0
+		padding-right: 0
+		.dashed
+			background:
+				image: url(../img/dashed.png)
+				repeat: no-repeat
+				position: center
+			height: 2px
+			max-width: 940px
+			width: 100%
+			display: inline-block
+	.col-xs-2
+		background-color: #eaeaea
+	.col-xs-10
+		padding-left: 0
+		ul
+			border-bottom: 1px solid #ebebeb
+			bottom: 10px
+			li
+				display: inline-block
+				padding: 0 10px
+				margin: 0 0 10px 0
+				border-left: 1px solid #ebebeb
+				line-height: 24px
+				&:nth-child(1)
+					border-left: none
+			.cat
+				color: $accent
+				font-family: $default-font
+				font-weight: 400
+			i
+				margin-right: 5px
+				color: $accent
+	&_text
+		word-wrap: break-word
+		margin-bottom: 25px
+		h2
+			color: $dark
+			font-family: $bold
+			font-size: 30px
+			line-height: 30px
+			margin: 25px 0 15px 10px
+		p
+			color: $grey
+			font-size: 16px
+			line-height: 24px
+			margin: 20px 0 20px 10px
+			
+	&_button
+		margin: 0 0 0 10px
+		padding: 5px 0
+		font-family: $bold
+		font-size: 16px
+		color: $accent
+		border-bottom: 1px solid #e1e1e1
+		transition: all .4s
+		&:hover
+			color: $accent
+			border-color: $grey
+.load
+	color: #fff
+	background-color: $accent
+	border: none
+	font-family: $bold
+	font-size: 18px
+	padding: 10px 20px
+	display: block
+	margin: 50px auto 100px auto
+	border-radius: 5px
+	transition: all .4s
+	&:hover
+		background-color: rgba(62, 179, 165, .8)
+.my-footer
+	text-align: center
+	font-family: $default-font
+	font-size: 18px
+	color: $grey
+	margin: 50px 0 45px 0
+	.container
+		max-width: 940px
+	span
+		color: $accent
+	
+		
+		
+			
+		
+		
